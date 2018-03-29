@@ -4,7 +4,7 @@ For our chatbot project, we decided to train on a film dialogue database, to cre
 
 ### Start Example
 
-It starts a conversation with an introduction, also stating the querying possibilities:
+It starts a conversation with an introduction, also stating the querying possibilities. It does this when the chat-id of the incoming message is unknown to him:
 
 > **USER:**
 > Hello.
