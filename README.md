@@ -4,7 +4,13 @@ For our chatbot project, we decided to train on a film dialogue database, to cre
 
 ### Start Example
 
-[START-TALK HERE]
+It starts a conversation with an introduction, also stating the querying possibilities:
+
+> **USER:**
+> Hello.
+> 
+> **BREPOBOT:**
+> Hello, a pleasure as always. I am Brepo, the overly dramatic film bot. I don't like listening to people much, so excuse me if I ignore you and go on a rant. On the bright side, if you'd like to get some 'info' or a 'quote' from some movie and you're too lazy to search for it yourself, just ask me and I'll google it for you.
 
 ## Queries
 
