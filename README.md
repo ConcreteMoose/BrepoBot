@@ -57,6 +57,25 @@ Chit Chat is governed by a Recurrent Neural Network (RNN) trained on the cornell
 
 Unfortunately, sentence selection in practice seems rather incoherent. Possibly, movie dialogues are not coherent enough to accurately predict the next interaction in a dialogue. This is plausible, since it has been observed that network loss during training did not improve much from random. Alternatively, other representations of sentence meaning could be tried. We experimented with training a separate RNN which maps sentences to a point in semantic space such that sentences with similar meaning lie close together, whereas sentences with different meaning are far apart. This model was trained on the MRS dataset available at https://github.com/brmson/dataset-sts, however performance was poor. Because no labeled datasets specifically in the domain of movie dialogues was available, we did not explore this possibility further.
 
+### Example
+
+In this case BrepoBot actually remembered part of the context, and answered the question (be it in a very long manner). Unfortunately, it did not correctly answer the next question.
+
+> **BREPOBOT:**
+> Look, I knew your father, he had a helluva reputation on this job. But that don't mean you get any slack. Swayzak sends you down here, okay, I gotta eat you, that's the rules and I got nothing to say about that. But Swayzak or no, you live with me. Step out of line, and I don't care who knows you, I'll swing the hammer.  You think you're the first?
+> 
+> **USER:**
+> Oh, how do you know my father?
+>
+> **BREPOBOT:**
+> There was this kid that I grew up with; he was a couple years younger than me, and sort of looked up to me, you know.  We did our first work together, worked our way out of the street.  Things were good and we made the most of it.  During prohibition, we ran molasses up to Canada and made a fortune; your father too.  I guess as much as anyone, I loved him and trusted him. Later on he had an idea to make a city out of a desert stop-over for G.I.'s on the way to the West Coast. That kid's name was Moe Greene, and the city he invented was Las Vegas. This was a great man; a man with vision and guts; and there isn't even a plaque or a signpost or a statue of him in that town.  Someone put a bullet through his eye; no one knows who gave the order.  When I heard about it I wasn't angry.  I knew Moe; I knew he was headstrong, and talking loud, and saying stupid things.  So when he turned up dead, I let it go, and said to myself: this is the business we've chosen. I never asked, who gave the go ahead because it had nothing to do with business.
+>
+> **USER:**
+> I did not know that. Did you know him well?
+> 
+> **BREPOBOT:**
+> Anyway, it's hard to live gay, that's the right way to say it, in a small town like this. I've wanted to leave many times, but my love for Linda and Frank and another certain person that we won't go into have kept me from it. Anyway, I'm rambling.... [etc.etc.etc.]
+
 
 ## Improvements
 
