@@ -1,0 +1,6 @@
+model_checkpoint_path: "rnn_model.ckpt"
+all_model_checkpoint_paths: "../epoch_18/rnn_model.ckpt"
+all_model_checkpoint_paths: "../epoch_19/rnn_model.ckpt"
+all_model_checkpoint_paths: "../epoch_20/rnn_model.ckpt"
+all_model_checkpoint_paths: "../epoch_21/rnn_model.ckpt"
+all_model_checkpoint_paths: "rnn_model.ckpt"
