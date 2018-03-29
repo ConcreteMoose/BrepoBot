@@ -52,3 +52,39 @@ It always answers with a film, so if it does not have a film in its database, it
 
 
 ## Talk
+
+
+
+## Improvements
+
+### Queries
+
+The biggest problem with the queries at the moment, is the fact that similarity partly depends on length. So if you ask for a movie by its short name, *narnia* for example, it will not find the film that is specified by its full name: *The Chronicles of Narnia: The Voyage of the Dawn Treader*.
+
+> **USER:**
+> quote narnia
+> 
+> **BREPOBOT:**
+> Here's a quote from Daria!
+>
+> No quote found
+>
+> **USER:**
+> quote the chronicles of narnia
+>
+> **BREPOBOT:**
+> Here's a quote from The Chronicles of Riddick!
+>
+> Riddick:
+> So now it's back to all the brightness, and everything I hate.
+>
+> **USER:**
+> quote The Chronicles of Narnia: The Voyage of the Dawn Treader
+>
+> **BREPOBOT:**
+> Here's a quote from The Chronicles of Narnia: The Voyage of the Dawn Treader!
+>
+> Taglines:
+> Return to magic. Return to hope. Return to Narnia
+
+
